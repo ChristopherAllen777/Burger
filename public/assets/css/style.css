@@ -2,9 +2,9 @@ html {
 	background: #f7d278;
 	text-align: center;
 }
-/*body {
-	background: #f7d278;
-}*/
+#body {
+  background-color: #f7d278;
+}
 .row {
 	background: #f7d278;
 }
@@ -32,4 +32,9 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f7d278;
+    border-color: #f7d278;
 }
